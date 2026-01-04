@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffdce2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+  }
+  
+  .cute-img {
+    width: 150px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #yesBtn {
+    background: #ff6b81;
+    color: white;
+  }
+  
+  #noBtn {
+    background: #ccc;
+    position: absolute;
+  }
+  
